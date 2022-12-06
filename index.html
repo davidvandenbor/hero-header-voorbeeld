@@ -2,76 +2,60 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Scalable CSS grids and CSS columns without media queries</title>
-   <link rel="stylesheet" href="style.css">
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>Header Hero voorbeeld</title>
 </head>
+
 <body>
+ <nav>
+  <section>
+   <a href="index.html">Home</a>
+   <a href="biografie.html">Biografie</a>
+   <a href="over-mij.html">Over mij</a>
+   <a href="contact.html">Contact</a>
+  </section>
 
-<p>Make the screen wider than 1330px and you'll see the difference between auto-fill and auto-fit! With auto-fit, the columns will automatically expand to take up all of the available horizontal space. </p>
+ </nav>
 
-   auto-fill
-<div class="grid-container-cssgrid grid-container--fill">
-  <div class="grid-element">
-    1
-  </div>
-  <div class="grid-element">
-    2
-  </div>
-  <div class="grid-element">
-    3
-  </div>
-  <div class="grid-element">
-    4
-  </div>
-  <div class="grid-element">
-    5
-  </div>
-</div>
+ <header>
+  <article>
+   <h1>Have you looked at your phone lately?</h1>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quaerat tempora totam commodi. Aperiam rem ratione eius deleniti assumenda. Iusto amet est minima quidem reiciendis ut quia vel aliquam esse!</p>
+  </article>
+ </header>
 
-<hr>
+ <section class="inleiding">
+  <article>
+   <h2>Dit is mijn subkopje</h2>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure nostrum dolor iusto suscipit quidem inventore? Temporibus minus corrupti unde ad molestiae amet blanditiis doloremque consequuntur maiores, natus, totam quae quibusdam.</p>
+  </article>
+  <article>
+   <h2>Dit is mijn subkopje</h2>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure nostrum dolor iusto suscipit quidem inventore? Temporibus minus corrupti unde ad molestiae amet blanditiis doloremque consequuntur maiores, natus, totam quae quibusdam.</p>
+  </article>
+ </section>
 
-auto-fit
-<div class="grid-container-cssgrid grid-container--fit">
-  <div class="grid-element">
-    1
-  </div>
-  <div class="grid-element">
-    2
-  </div>
-  <div class="grid-element">
-    3
-  </div>
-  <div class="grid-element">
-    4
-  </div>
-  <div class="grid-element">
-    5
-  </div>
-</div>
+ <footer>
 
-<hr>
+  <section>
+   <article>
+    <h2>dit is mijn kopje</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam omnis veritatis, quo tempore modi amet eos id saepe iusto facilis pariatur qui iste accusantium ullam placeat. Ut neque similique nesciunt.</p>
+   </article>
+   <article>
+    <h2>dit is mijn kopje</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam omnis veritatis, quo tempore modi amet eos id saepe iusto facilis pariatur qui iste accusantium ullam placeat. Ut neque similique nesciunt.</p>
+   </article>
+   <article>
+    <h2>dit is mijn kopje</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam omnis veritatis, quo tempore modi amet eos id saepe iusto facilis pariatur qui iste accusantium ullam placeat. Ut neque similique nesciunt.</p>
+   </article>
+  </section>
 
-<h2>CSS columns</h2>
-   <p>Notice the <strong>different</strong> order of the grid items in the columns, 1,2,3,4 etc!!</p>
-<div class="grid-container csscolumns">
-  <div class="grid-element">
-    1
-  </div>
-  <div class="grid-element">
-    2
-  </div>
-  <div class="grid-element">
-    3
-  </div>
-  <div class="grid-element">
-    4
-  </div>
-  <div class="grid-element">
-    5
-  </div>
-</div>
-
+ </footer>
 </body>
+
 </html>
