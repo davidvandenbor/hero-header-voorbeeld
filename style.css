@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
 
-/* Onderstaande stukje CSS is om 
-tijdelijk even de omlijning te zien 
-van al je HTML onderdelen 
-in de pagina. */
-* {
- border: 1px solid red
-}
+/* Onderstaande stukje CSS is om tijdelijk even 
+de OMLIJNING te zien van al je HTML elementen 
+(margins/paddings) in de pagina. */
 
-/* einde omlijning */
+* {
+  border: none;
+  outline: 1px solid limegreen;
+  /* je kan ook checken met backgrounds: */
+  background: rgba(0, 100, 0, 0.1);
+}
+/* einde omlijning --------------------- */
+
+
 
 body {
  margin: 0;
